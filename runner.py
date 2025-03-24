@@ -16,9 +16,9 @@ from characters import Player
 from characters import NPC
 
 #dialogue
-player = Player([], {"wakeUp":"You: \"Ugh, w-where am I? I must've fallen asleep in here. Hmm, I can't see a thing, I should probably look around for the light switch\"", "lightsOn":"You: \"I can finally see. How the hell did I end up in Cynthia's basement? Wait, that's right, she was the one hosting the party last night. I must've had too much to drink and stumbled down here before falling asleep. I should probably quit drinking so much... whatever, I'm gonna be late to school at this rate, I should get going.\"", "admit":"You: \"Sorry about that, I must've stumbled down there at some point last night. I hope you weren't too worried.\"", "walk": "You: \"Nah, It's alright. I can walk home, it's only 10 minutes anyways. Thank you for the offer though.\"", "robotQuestAcceptP1":"You: \"Go ahead.\"", "robotQuestAcceptP2":"You: \"Yeah that's fine, I'll look around for it. What does it look like?\"", "flowersP":"You: \"They're really beautiful. I can tell you take great care of them.\"", "robotQuestCompletedP1":"You: \"It was sitting in a corner of your basement.\"", "classroomThanks":"You: \"Thank you very much Mrs. Catherine.\""})
-cynthia = NPC({"notice":"Cynthia: \"Oh, hey -----, so that's where you were.\"", "figured":"Cynthia: \"Don't stress about it, I figured something like that had probably happened. Classes start in about an hour, do you want me to drive you home?\"", "gardenEnd":"Cynthia: \"No problem. Well, I'm here if you need anything.\"\n", "robotQuestAcceptC1":"Cynthia: \"Actually -----, while you're still here, do you mind if I ask you something?\"", "robotQuestAcceptC2":"Cynthia: \"I lost one of my robots a few days ago, if you happen to see it could you let me know? I've already checked everywhere inside the house with no luck, I'm not really sure where else it could be.\"", "robotQuestAcceptC3": "Cynthia: \"Thank you so much, I really appreciate it. It has orange horns and is holding energy swords.\"", "flowersC":"Cynthia: \"Aren't the flowers pretty?\"", "robotQuestCompletedC1":"Cynthia: \"Oh, you found it! Thank you so much -----, where was it?\"", "robotQuestCompletedC2":"Cynthia: \"Huh, I wonder how it ended up down there? Regardless, I really appreciate the help. It is't much, but have this.\"", "robotQuestCompletedC3":"Cynthia: \"Um, by the way -----, you should probably apologize to Sydney the next time you see her.\"", "robotQuestEnd":"Cynthia: \"Oh, do you not rem... actually, forget I said anything. I'll see you at school -----.\"", "wordleCy":"Cynthia: \"Today's Wordle is really hard, I can't make any sense of it.\""})
-catherine = NPC({"assignment":"Mrs. Catherine: \"Good afternoon class! I hope all of you have had a wonderful day so far. For today's assignment, you have two options. You can either complete the daily Wordle, or you can use our arts and crafts supplies in the back to create something of your choice. That is all for today, you may start working.\"", "pinwheel":"Mrs. Catherine: \"Oh -----, this looks beautiful. You earn full points for today. You can have free time for the rest of class.\"", "wordleCa":"Mrs. Catherine: \"Good job -----, you earn full points for today. You can have free time for the rest of class.\""})
+player = Player([], {"wakeUp":"You: \"Ugh, w-where am I? I must've fallen asleep in here. Hmm, I can't see a thing, I should probably look around for the light switch\"", "lightsOn":"You: \"I can finally see. How the hell did I end up in Cynthia's basement? Wait, that's right, she was the one hosting the party last night. I must've had too much to drink and stumbled down here before falling asleep. I should probably quit drinking so much... whatever, I'm gonna be late to school at this rate, I should get going.\"", "admit":"You: \"Sorry about that, I must've stumbled down there at some point last night. I hope you weren't too worried.\"", "walk": "You: \"Nah, It's alright. I can walk home, it's only ten minutes anyways. Thank you for the offer though.\"", "robotQuestAcceptP1":"You: \"Go ahead.\"", "robotQuestAcceptP2":"You: \"Yeah that's fine, I'll look around for it. What does it look like?\"", "flowersP":"You: \"They're really beautiful. I can tell you take great care of them.\"", "robotQuestCompletedP1":"You: \"It was sitting in a corner of your basement.\"", "classroomThanks":"You: \"Thank you very much Mrs. Catherine.\""})
+cynthia = NPC({"notice":"Cynthia: \"Oh, hey ------, so that's where you were.\"", "figured":"Cynthia: \"Don't stress about it, I figured something like that had probably happened. Classes start in about an hour, do you want me to drive you home?\"", "gardenEnd":"Cynthia: \"No problem. Well, I'm here if you need anything.\"\n", "robotQuestAcceptC1":"Cynthia: \"Actually ------, while you're still here, do you mind if I ask you something?\"", "robotQuestAcceptC2":"Cynthia: \"I lost one of my robots a few days ago, if you happen to see it could you let me know? I've already checked everywhere inside the house with no luck, I'm not really sure where else it could be.\"", "robotQuestAcceptC3": "Cynthia: \"Thank you so much, I really appreciate it. It has a white body and orange horns.\"", "flowersC":"Cynthia: \"Aren't the flowers pretty?\"", "amongUs":"Cynthia: \"I ordered the Among Us potion from the dark web, and supposedly, when you drink this Among Us potion at 3 a.m., you turn into the imposter from Among Us.\"\n","robotQuestCompletedC1":"Cynthia: \"Oh, you found it! Thank you so much ------, where was it?\"", "robotQuestCompletedC2":"Cynthia: \"Huh, I wonder how it ended up down there? Regardless, I really appreciate the help. It is't much, but have this.\"", "robotQuestCompletedC3":"Cynthia: \"Um, by the way ------, you should probably apologize to Sydney the next time you see her. I know you probably didn't mean to, but she seemed really hurt.\"", "robotQuestEnd":"Cynthia: \"Oh, do you not rem... actually, forget I said anything. I'll see you at school ------.\"", "wordleCy":"Cynthia: \"Today's Wordle is really hard, I can't make any sense of it.\""})
+catherine = NPC({"assignment":"Mrs. Catherine: \"Good afternoon class! I hope all of you have had a wonderful day so far. For today's assignment, you have two options. You can either complete the daily Wordle, or you can use our arts and crafts supplies in the back to create something of your choice. That is all for today, you may start working.\"", "pinwheel":"Mrs. Catherine: \"Oh ------, this looks beautiful. You earn full points for today. You can have free time for the rest of class.\"", "wordleCa":"Mrs. Catherine: \"Good job ------, you earn full points for today. You can have free time for the rest of class.\""})
 
 #items
 toyRobot = Item("Toy Robot", "A toy robot with orange horns and some cool looking energy swords.")
@@ -59,7 +59,7 @@ def openInventory():
 # intro sequence (multiple print statements are for formatting)
 print("Welcome to ------------. Oh, are you not able to see that yet? Whatever, the name of this game isn't important. The date isn't important. Your name isn't important.")
 print("What happened,\n \n \n \n \n\033[1mis important.\033[0m \n")
-print("After a night of partying with classmates, a little too much drinking, and ir-ev-rs--le c-oi-e-, you find yourself lying down in a dark room, unsure of how you got there.")
+print("After a night of partying with your classmates, a little too much drinking, and ir-ev-rs--le c-oi-es, you find yourself lying down in a dark room, unsure of how you got there.")
 print("Your adventure to rec-i-y your ---tak-s begins here.\n")
 input("Type anything to continue.")
 
@@ -196,9 +196,15 @@ def cynthiasBackyard(backyardQuest):
             sayDialogue(cynthia.dialogue, "robotQuestEnd")
             print("\n\033[1m""Quest Completed: Find Cynthia's Robot""\033[0m\n")
          else:
-            sayDialogue(cynthia.dialogue, "flowersC")
-            sayDialogue(player.dialogue, "flowersP")
-            print("Out of the corner of your eye, you can see her smiling.\n")
+            secretDialogue = random.randrange(0,10)
+
+            if secretDialogue == 9:
+               sayDialogue(cynthia.dialogue, "amongUs")
+            else:
+               sayDialogue(cynthia.dialogue, "flowersC")
+               sayDialogue(player.dialogue, "flowersP")
+               print("Out of the corner of your eye, you can see her smiling.\n")
+
       elif gardenChoice == "garden":
          print("You take a look at Cynthia's garden. It contains a wide variety of beautiful flowers, all of which smell amazing.\n")
       elif gardenChoice == "basement":
@@ -213,7 +219,7 @@ def cynthiasBackyard(backyardQuest):
 cynthiasBackyard(backyardQuest)
 
 #school sequence
-print("You apologize one more time to Cynthia before thanking her and saying goodbye. After a short walk, you arive at your place. You take a shower, get into a fresh change of clothes, eat breakfast, and pack your backpack before heading off the school for the day.")
+print("You apologize one more time to Cynthia before thanking her and saying goodbye. After a short walk, you arrive at your apartment. You take a shower, get into a fresh change of clothes, eat breakfast, and pack your backpack before heading off to school for the day.")
 print("\n\033[1m""Some time later...""\033[0m")
 locationText("English Class")
 print("Before you know it, you have made it to your final class of the day; English. You take a seat in your usual spot next to Cynthia and wait for your teacher, Mrs. Catherine, to give instructions.\n")
@@ -227,7 +233,7 @@ def english():
       while assignmentComplete == False:
          classroomChoice = input("\nWould you like to show Mrs. Catherine the flower pinwheel, talk to Cynthia, or look around the classroom? Type either \"pinwheel,\" \"cynthia,\" or \"classroom.\"")
          if classroomChoice == "pinwheel":
-            print("You wait for about 10 minutes to make it seem like you made the flower pinwheel yourself. You walk up to Mrs. Catherine and show her the pinwheel.\n")
+            print("You wait for about ten minutes to make it seem like you made the flower pinwheel yourself. You walk up to Mrs. Catherine and show her the pinwheel.\n")
             sayDialogue(catherine.dialogue, "pinwheel")
             sayDialogue(player.dialogue, "classroomThanks")
             assignmentComplete = True
