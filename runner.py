@@ -57,7 +57,7 @@ def openInventory():
          print("Invalid input.")
 
 # intro sequence (multiple print statements are for formatting)
-print("Welcome to ------------. Oh, are you not able to see that yet? Whatever, the name of this game isn't important. The date isn't important. Your name isn't important.")
+print("Welcome to C--seq----es. Oh, are you not able to see that yet? Whatever, the name of this game isn't important. The date isn't important. Your name isn't important.")
 print("What happened,\n \n \n \n \n\033[1mis important.\033[0m \n")
 print("After a night of partying with your classmates, a little too much drinking, and ir-ev-rs--le c-oi-es, you find yourself lying down in a dark room, unsure of how you got there.")
 print("Your adventure to rec-i-y your ---tak-s begins here.\n")
